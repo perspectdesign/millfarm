@@ -10,9 +10,23 @@ body { }
    Header
    ========================================================================== */
 
-.banner { }
+.banner {
+	background: #960062;
+	padding: 10px 0 10px 0;
+}
 
 
+.navbar-inner {
+	background: none;
+	border: none;
+}
+
+.navbar-fixed-top, .navbar-inner, .navbar-static-top, .navbar-inner {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+}
 
 /* ==========================================================================
    Content
