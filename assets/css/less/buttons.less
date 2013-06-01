@@ -143,7 +143,12 @@ input[type="button"] {
 // Set the backgrounds
 // -------------------------
 .btn-primary {
-  .buttonBackground(@btnPrimaryBackground, @btnPrimaryBackgroundHighlight);
+  background: @darkPurple;
+  color: @white;
+  text-shadow: none;
+  	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: @white;
 }
 // Warning appears are orange
 .btn-warning {
