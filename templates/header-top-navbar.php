@@ -1,7 +1,7 @@
 <header class="banner navbar navbar-inverse navbar-fixed-top" role="banner">
   <div class="container">
   	<div class="row header-top">
-  		<div class="span4 text-center"><a href="http://www.millfarmnursery.com"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white-small.png"></a></div>
+  		<div class="span4 text-center"><a href="http://www.millfarmnursery.com"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white-small.png" alt="Mill Farm Nursery"></a></div>
   		<div class="span8 topnav">
 		  	<div class="navbar-inner">
 			    <div class="container">
