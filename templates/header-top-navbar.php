@@ -22,7 +22,7 @@
 		</div>
 	</div>
   </div>
-  <div class="container">
+  <div class="container text-center strapline">
   	<?php dynamic_sidebar('sidebar-header'); ?>
   </div>
 </header>
