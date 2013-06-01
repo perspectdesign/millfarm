@@ -23,7 +23,10 @@
   
   <div class="bottom-footer">
   	<div class="container">
-    	<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - Website Design and Hosting by <a href="http://www.perspectivedesign.co.uk" alt="Perspective Design">Perspective Design</a></p>
+    	<div class="perspec-logo pull-right hidden-phone">
+    		<a href="http://www.perspectivedesign.co.uk"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-small.png" alt="Perspective Design"></a>
+    	</div>
+    	<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - Website Design and Hosting by <a href="http://www.perspectivedesign.co.uk">Perspective Design</a></p>
 	</div>
   </div>
 </footer>
