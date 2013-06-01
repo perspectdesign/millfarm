@@ -5,7 +5,7 @@
 
 .carousel {
   position: relative;
-  margin-bottom: @baseLineHeight;
+  margin-bottom: 0;
   line-height: 1;
 }
 
@@ -20,6 +20,7 @@
   > .item {
     display: none;
     position: relative;
+    height: 450px;
     .transition(.6s ease-in-out left);
 
     // Account for jankitude on images
@@ -71,7 +72,7 @@
 .carousel-control {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: -50px;
   width: 40px;
   height: 40px;
   margin-top: -20px;
@@ -95,7 +96,7 @@
   // Reposition the right one
   &.right {
     left: auto;
-    right: 15px;
+    right: -50px;
   }
 
   // Hover/focus state
@@ -111,15 +112,17 @@
 // -----------------------------
 .carousel-indicators {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
   z-index: 5;
   margin: 0;
   list-style: none;
+  text-align: center;
 
   li {
-    display: block;
-    float: left;
+    display: inline-block;
+    float: none;
     width: 10px;
     height: 10px;
     margin-left: 5px;
@@ -137,13 +140,14 @@
 // -----------------------------
 
 .carousel-caption {
-  position: absolute;
+  position: static;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 15px;
-  background: @grayDark;
-  background: rgba(0,0,0,.75);
+  padding: 0 20px;
+  background: transparent;
+  max-width: 550px;
+  margin-top: 150px;
 }
 .carousel-caption h4,
 .carousel-caption p {
@@ -155,4 +159,16 @@
 }
 .carousel-caption p {
   margin-bottom: 0;
+}
+
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
