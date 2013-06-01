@@ -20,19 +20,6 @@ body {
 	border-width: 1px;
 }
 
-
-.navbar-inner {
-	background: none;
-	border: none;
-}
-
-.navbar-fixed-top, .navbar-inner, .navbar-static-top, .navbar-inner {
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	-o-box-shadow: none;
-}
-
 .header-top {
 	padding-bottom: 0;
 }

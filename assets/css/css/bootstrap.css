@@ -4035,7 +4035,14 @@ input[type="submit"].btn.btn-mini {
   border-radius: 6px 0 6px 6px;
 }
 .navbar-inverse .navbar-inner {
-  background: none;
+  background-color: #996600;
+  background-image: -moz-linear-gradient(top, #ff0000, #00ff00);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff0000), to(#00ff00));
+  background-image: -webkit-linear-gradient(top, #ff0000, #00ff00);
+  background-image: -o-linear-gradient(top, #ff0000, #00ff00);
+  background-image: linear-gradient(to bottom, #ff0000, #00ff00);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff0000', endColorstr='#ff00ff00', GradientType=0);
   border-color: #252525;
 }
 .navbar-inverse .brand,
