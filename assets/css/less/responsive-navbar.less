@@ -12,6 +12,7 @@
   // Remove any padding from the body
   body {
     padding-top: 0;
+    margin-top: 0;
   }
   // Unfix the navbars
   .navbar-fixed-top,
@@ -19,7 +20,7 @@
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: @baseLineHeight;
+    margin-bottom: 0;
   }
   .navbar-fixed-bottom {
     margin-top: @baseLineHeight;
@@ -38,7 +39,32 @@
     padding-right: 10px;
     margin: 0 0 0 -5px;
   }
+  
 
+  
+  .navbar-fixed-top .navbar-inner {
+	  margin-top: 10px;
+	  padding-top: 10px;
+	  background: #444;
+	  border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: @white;
+      border-top-style: solid;
+      border-top-width: 1px;
+      border-top-color: @white;
+  }
+
+  .nav-collapse .nav > li > a:hover {
+	border: none;
+  }
+  
+  .navbar-inverse .btn-navbar {
+  	background: #960062;
+  }		
+  
+  .nav-collapse, .nav-collapse.collapse {
+	  padding-top: 10px;
+  }
   // COLLAPSIBLE NAVBAR
   // ------------------
   // Nav collapse clears brand
