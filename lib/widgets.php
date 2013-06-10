@@ -34,7 +34,7 @@ function roots_widgets_init() {
   register_sidebar(array(
     'name'          => __('Slider Area', 'roots'),
     'id'            => 'sidebar-sliderarea',
-    'before_widget' => '<div class="homeslider hidden-phone">',
+    'before_widget' => '<div class="homeslider">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>',

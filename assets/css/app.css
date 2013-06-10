@@ -23,13 +23,6 @@ body {
 	padding-bottom: 0;
 }
 
-.homeslider {
-	background: url(../img/border.jpg) no-repeat;
-	background-position: 0 0;
-	width: 100%;
-	height: 450px;
-}
-
 .bannerimage {
 	width: 100%;
 	z-index: -10;
