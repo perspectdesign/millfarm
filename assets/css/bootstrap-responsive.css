@@ -676,6 +676,17 @@
   .nav-collapse .nav > li > a:hover {
     border: none;
   }
+  .nav-collapse .nav > li > a:focus {
+    border: none;
+  }
+  .nav-collapse .nav > .active > a,
+  .nav-collapse .nav > .active > a:hover,
+  .nav-collapse .nav > .active > a:focus {
+    border: none;
+  }
+  .nav-collapse .nav > li > a {
+    border: none;
+  }
   .navbar-inverse .btn-navbar {
     background: #960062;
   }
